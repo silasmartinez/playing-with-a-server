@@ -74,4 +74,5 @@ function handleRequest (request, response) {
 
 var server = http.createServer(handleRequest)
 
-server.listen(9001)
+var port =  process.env.PORT || 9001
+server.listen(port)
