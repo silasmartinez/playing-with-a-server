@@ -1,0 +1,25 @@
+{
+  "name": "node-http-server-intro",
+  "version": "1.0.0",
+  "description": "The goal of this exercise is to write a simple, HTTP file server. Clone this repository and `cd` into the directory you cloned it in. All notes here are relative to this directory.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gSchool/node-http-server-intro.git"
+  },
+  "keywords": [],
+  "author": "Silas Martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gSchool/node-http-server-intro/issues"
+  },
+  "homepage": "https://github.com/gSchool/node-http-server-intro",
+  "dependencies": {
+    "markdown": "^0.5.0",
+    "mime": "^1.3.4"
+  }
+}
